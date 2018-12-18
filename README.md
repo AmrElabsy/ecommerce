@@ -10,3 +10,6 @@ No OOP
 No MVC
 Time to build: ~30 Hours. 
 Date: 15 December 2018
+
+Uploaded here:
+    https://amrel-absy.000webhostapp.com/index.php
