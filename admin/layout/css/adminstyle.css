@@ -1,0 +1,464 @@
+/* Start Whole Body */
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #EEE;
+	font-size: 16px;
+}
+
+a
+{
+	color: inherit;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: inherit;
+}
+/* End   Whole Body */
+
+/* Start Nav */
+
+/* End   Nav */
+
+
+/* Start Form */
+
+.login
+{
+	width: 350px;
+	margin: 50px auto;	
+	border: 3px solid #444;
+	border-radius: 40px;
+	background-color: #CCC;
+	padding: 20px;
+	padding-bottom: 50px;
+}
+
+.login h3
+{
+	margin-bottom: 20px;
+}
+
+.form-control
+{
+	margin-bottom: 15px;
+}
+
+/* End   Form */ 
+
+
+/* Start Dashboard */
+
+.home-stats div div 
+{
+	background-color: #CCC;
+	color: #333;
+	padding: 20px;
+	border: 1px solid #111;
+	border-radius: 60px 0%;
+	font-size: 18px;
+}
+
+.home-stats div div span
+{
+	font-size: 50px;
+	font-weight: bold;
+	display: block;
+}
+
+.latest
+{
+	margin-top: 30px;
+}
+
+.home-stats div div
+{
+	color: #FFF;
+}
+
+.home-stats div.members div
+{
+	background-color: #3498db;
+}
+
+.home-stats div.members div:hover
+{
+	background-color: #2980b9;
+}
+
+.home-stats div.pending div
+{
+	background-color: #2ecc71;
+}
+
+.home-stats div.pending div:hover
+{
+	background-color: #27ae60;
+}
+
+.home-stats div.items div
+{
+	background-color: #1abc9c;
+}
+
+.home-stats div.items div:hover
+{
+	background-color: #16a085;
+}
+
+.home-stats div.comments div
+{
+	background-color: #e67e22;
+}
+
+.home-stats div.comments div:hover
+{
+	background-color: #d35400;
+}
+
+.home-stats a
+{
+	color: #FFF;
+}
+
+.home-stats a:hover
+{
+	color: #FFF;
+	text-decoration: none;	
+}
+
+
+
+/* End   Dashboard*/
+
+/* Start Edit Members */
+
+h1
+{
+	font-size: 45px;
+	color: #666;
+	font-weight: bold;
+	margin: 60px;
+}
+
+.activate-btn
+{
+	margin-left: 4px;
+}
+
+/* Ending Edit Member */
+
+.main-table tr:first-child td
+{
+	background-color: #333;
+	color: #FFF;
+}
+
+.panel-cat strong
+{
+	margin-top: 15px;
+	display: inline-block; 
+}
+
+.panel-cat strong:first-child
+{
+	margin-top: 0px; 
+}
+
+.panel .panel-heading
+{
+	position: relative;
+	overflow: hidden;
+}
+
+.panel .panel-heading .hidden-btns
+{
+	-webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+	position: absolute;
+	top: 15px;
+	right: -140px;
+}
+
+.panel:hover .panel-heading .hidden-btns
+{
+	right: 15px;
+}
+
+.panel-heading-toggle:hover
+{
+	cursor: pointer;
+}
+
+.item-main
+{
+
+}
+
+.item-pand
+{
+	background-color: #F7F7F7;
+	border: 1px solid #AAA;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.item-head
+{
+	border: 1px solid #AAA;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.item-pic
+{
+	position: relative;
+	height: 100%;
+
+}
+
+.middle
+{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.item-price
+{
+	position: absolute;
+	display: inline-block;
+	background-color: rgba(0,0,0, 0.4);
+	color: #FFF;
+	top: 5px;
+	right: 5px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.item-pic img
+{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.item-dtls
+{
+	border: 1px solid #AAA;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: left;
+	padding: 10px;
+}
+
+.item-dtls span.read-more
+{
+	color: #44f;
+}
+
+.item-dtls span.read-more:hover
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.item-btns
+{
+	margin-top: 10px;
+}
+
+.modal
+{
+	/*display: none;*/
+	background-color: #FFF;
+	border: 2px solid #AAA;
+    margin: 3% auto;
+    width: 55%;
+    text-align: center;
+    border-radius: 20%;
+    width: 75%;
+}
+
+
+
+
+table a
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+table a:hover
+{
+	text-decoration: none;
+}
+
+.modal-dialog
+{
+	/*margin: 5px auto;*/
+	width: 90%;
+}
+
+.modal
+{
+	border-radius: 10px;
+}
+
+.item-head-modal
+{
+	margin: 10px;
+}
+
+.item-page-main
+{
+	background-color: #FFF;
+	border: 2px solid #777;
+	border-radius: 50px;
+	padding: 25px;
+}
+
+
+
+.item-page-main .item-page-details
+{
+	text-align: left;
+}
+
+.comment-del
+{
+	background-color: #FFF;
+	border: 2px solid #777;
+	border-radius: 50px;
+	padding: 25px;
+}
+
+.user-profile
+{
+	background-color: #FAFAFA;
+	border: 2px solid #777;
+	border-radius: 40px;
+	padding: 25px;
+}
+
+.user-profile-pic img
+{
+	width: 100%;
+}
+
+
+.user-profile-info
+{
+	font-size: 1.3em;
+}
+
+.user-profile-info strong
+{
+	margin-top: 15px;
+	display: inline-block; 
+}
+
+.user-profile-info strong:first-child
+{
+	margin-top: 0px; 
+}
+
+.user-profile-comment-user
+{
+	float: left;
+	width: 20%;
+	padding: 15px;
+
+}
+
+.user-profile-comment
+{
+	padding: 17px;
+	display: inline-block;
+	width: 80%;
+	border: 2px solid #AAA;
+	position: relative;
+}
+.user-profile-comment-box
+{
+	margin: 15px 0px;
+}
+
+.user-profile-comment-box a
+{
+	color: inherit;
+}
+
+.user-profile-comment-box a:hover
+{
+	text-decoration: none;
+}
+
+.user-profile-comment-box:first-child
+{
+	margin:0px;
+}
+
+
+.user-profile-comment:before
+{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: -40px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color: transparent #AAA transparent transparent;
+	border-width: 20px;
+}
+
+.members-manage img 
+{
+	height: 60px;
+	min-width: 60px;
+}
+
+.members-manage .img-div
+{
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.img-data /* <td> */
+{
+	width: 76px;
+}
+
+.item-pic-modal img
+{
+	max-width: 60%;
+}
+
+footer
+{
+	margin-top: 30px;
+	border-top: 3px solid #BBB;
+	background-color: #115;
+	color: #FFF;
+	padding-top: 35px;
+	padding-bottom: 60px;	
+}
+
+.panel-img-manege img
+{
+	width: 100%;
+}
+
+.user-profile-comment-user img
+{
+	width: 50px;
+}
